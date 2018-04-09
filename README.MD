@@ -19,13 +19,15 @@ IK就这么放这里吧
     org.wltea.analyzer.sample.LuceneIndexAndSearchDemo
     
 Maven打包
-    通过mvn clean 清理target
-    通过mvn package来构建jar包
-    /Users/huiyu/ideaProject/myCoding/IK-Analyzer/target/IK-Analyzer-1.0-SNAPSHOT.jar
+
+    1. 通过mvn clean 清理target
+    2. 通过mvn package来构建jar包
+    3. /Users/huiyu/ideaProject/myCoding/IK-Analyzer/target/IK-Analyzer-1.0-SNAPSHOT.jar
     
 使用说明：
-    1、通过Maven打包，
-    2、将IK-Analyzer-1.0-SNAPSHOT.jar方法使用的项目lib中，
+
+    1. 通过Maven打包;
+    2. 将IK-Analyzer-1.0-SNAPSHOT.jar方法使用的项目lib中，
     3、test的resouces中的三个文件也要放入到使用的项目resource中
     4、hotword.dic为要分的词，stopword.dic为停用词
     
