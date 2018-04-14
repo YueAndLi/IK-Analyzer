@@ -26,8 +26,9 @@ Maven打包
     
 使用说明：
 
-    1. 通过Maven打包;
-    2. 将IK-Analyzer-1.0-SNAPSHOT.jar方法使用的项目lib中，
-    3、test的resouces中的三个文件也要放入到使用的项目resource中
-    4、hotword.dic为要分的词，stopword.dic为停用词
+    1、test的resouces中的三个文件也要放入到使用的项目resource中
+    2、删除main2012.dic和quantifier.dic两个文件
+    3. 通过Maven打包;
+    4. 将IK-Analyzer-1.0-SNAPSHOT.jar方法使用的项目lib中，
+    5、hotword.dic为要分的词（如果有词分不出来之间加入进去），stopword.dic为停用词
     
